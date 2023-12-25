@@ -5,7 +5,6 @@ int main(int argc, char* argv[])
 {
     char lettera;
 
-
     scanf("%c", &lettera);
     (int) lettera;
 

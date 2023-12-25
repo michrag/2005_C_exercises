@@ -17,7 +17,6 @@ int main(int argc, char* argv[])
         scanf("\%d", &n);
 
         if((n < 0) || (n > 16))
-
         {
             printf("\07 \n Il numero inserito non e' un numero compreso tra 0 e 16 ! \n");
         }

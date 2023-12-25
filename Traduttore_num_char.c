@@ -3,9 +3,6 @@
 
 int main(int argc, char* argv[])
 {
-
-
-
     int lettera;
     int exit;
 
@@ -19,12 +16,8 @@ int main(int argc, char* argv[])
         (char) lettera;
         printf("%c", lettera);
     }
-
     while(exit == 0);
 
     system("PAUSE");
     return 0;
-
 }
-
-

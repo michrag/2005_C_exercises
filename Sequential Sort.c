@@ -56,7 +56,6 @@ int main(int argc, char* argv[])
 
     exit = FALSE;
 
-
     printf("\nSequential Sort\n");
 
     do
@@ -134,8 +133,6 @@ int main(int argc, char* argv[])
                     }
                 }
                 while(back != TRUE);
-
-
             }
             break;
 

@@ -6,8 +6,6 @@ typedef int Boolean;
 #define TRUE 1
 #define FALSE 0
 
-
-
 struct list
 {
     float value;
@@ -87,7 +85,6 @@ Boolean search(struct list* ptr, float target)
         {
             found = TRUE;
         }
-
         else
         {
             ptr = ptr->next_ptr;
@@ -123,7 +120,6 @@ Boolean pre_cancel(struct list** ptr_ptr)
         free(tmp_ptr);
         return TRUE;
     }
-
     else
     {
         return FALSE;
@@ -236,7 +232,4 @@ int main(int argc, char* argv[])
 
     }
     while(reply != 9);
-
 }
-
-

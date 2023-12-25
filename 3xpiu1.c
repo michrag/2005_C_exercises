@@ -27,8 +27,6 @@ Boolean pari(int x)
 
 int main(int argc, char* argv[])
 {
-
-
     int x;
     int exit;
     int copiax;

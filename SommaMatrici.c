@@ -39,11 +39,9 @@ int main(int argc, char* argv[])
                 }
                 while(R < 1 || C < 1);
 
-
                 M1 = (float*)malloc(R * C * sizeof(float));
                 M2 = (float*)malloc(R * C * sizeof(float));
                 M3 = (float*)malloc(R * C * sizeof(float));
-
 
                 printf("\nAdesso inserire i valori della prima matrice (riga,colonna)\n");
 
@@ -183,7 +181,6 @@ int main(int argc, char* argv[])
                     }
                 }
 
-
                 printf("\nQuesta e' la matrice risultante\n");
 
                 for(r1 = 0; r1 < R; r1++)
@@ -215,6 +212,3 @@ int main(int argc, char* argv[])
     }
     while(reply != 3);
 }
-
-
-

@@ -4,6 +4,7 @@
 int main(int argc, char* argv[])
 {
     int reply;
+    int* V;
 
     do
     {
@@ -19,7 +20,6 @@ int main(int argc, char* argv[])
         }
         else
         {
-            int V[n];
             int key;
             int next2read;
             int count;
@@ -28,6 +28,8 @@ int main(int argc, char* argv[])
             printf("\n Immettere il valore per cui quando la somma degli ultimi %d numeri \n immessi risulta uguale a tale valore, il programma termina \n >", n);
 
             scanf("%d", &key);
+
+            V = (int*)malloc(n * sizeof(int));
 
             printf("\n Adesso immettere i numeri... \n");
 
@@ -59,7 +61,7 @@ int main(int argc, char* argv[])
     }
     while(reply != 0);
 
-
     system("PAUSE");
+    free(V);
     return 0;
 }

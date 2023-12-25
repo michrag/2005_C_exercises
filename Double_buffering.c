@@ -15,7 +15,6 @@ int main(int argc, char* argv[])
         printf(">");
         scanf("%d", &niu);
     }
-
     while(old != niu);
 
     printf("\n Bravo! \n");

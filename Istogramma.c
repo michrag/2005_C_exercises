@@ -154,8 +154,6 @@ int main(int argc, char* argv[])
                     }
                 }
                 while(back != TRUE);
-
-
             }
             break;
 

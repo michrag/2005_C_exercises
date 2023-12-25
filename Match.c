@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 typedef unsigned short int Boolean;
+
 #define TRUE 1
 #define FALSE 0
 
@@ -46,7 +47,6 @@ Boolean match(float* V1, int n1, float* V2, int n2)
         {
             found = TRUE;
         }
-
         else
         {
             base++;
@@ -73,7 +73,6 @@ int main(int argc, char* argv[])
 
     do
     {
-
         printf("\nCosa desideri fare?\n1)creare due vettori\n2)uscire\n>");
         scanf("%d", &risp);
 

@@ -30,7 +30,6 @@ int main(int argc, char* argv[])
     int risp;
     int exit;
 
-
     do
     {
         exit = 0;
@@ -63,7 +62,6 @@ int main(int argc, char* argv[])
         {
             shift(A, n);
         }
-
 
         free(A);
         printf("\nUscire?\n>");

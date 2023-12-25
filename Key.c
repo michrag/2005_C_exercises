@@ -15,7 +15,6 @@ int main(int argc, char* argv[])
     sum = 0;
 
     for(next2read = 0; next2read < n - 1; next2read++);
-
     {
         scanf("%d", &V[next2read]);
         sum = sum + V[next2read];
@@ -30,7 +29,6 @@ int main(int argc, char* argv[])
         sum = sum + V[next2read];
         next2read = (next2read + 1) % n;
     }
-
     while(sum != key);
 
     system("PAUSE");

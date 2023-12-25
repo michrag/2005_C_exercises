@@ -55,7 +55,6 @@ int main(int argc, char* argv[])
                 out = lettera * chiave;
                 printf("%d\n", out);
             }
-
             while(exit == 0);
         }
     }
@@ -104,14 +103,10 @@ int main(int argc, char* argv[])
                 out = ((lettera + chiave) * chiave);
                 printf("%d\n", out);
             }
-
             while(exit == 0);
         }
     }
 
-
-
     system("PAUSE");
     return 0;
 }
-

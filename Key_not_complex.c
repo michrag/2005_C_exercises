@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 
     scanf("%d", &n);
 
-    int V[n];
+    int* V;
     int key;
     int next2read;
     int count;
@@ -20,10 +20,11 @@ int main(int argc, char* argv[])
     scanf("%d", &key);
     sum = 0;
 
+    V = (int*)malloc(n * sizeof(int));
+
     printf("\n Adesso immettere i numeri... \n");
 
     for(next2read = 0; next2read < n - 1; next2read++);
-
     {
         scanf("%d", &V[next2read]);
         sum = sum + V[next2read];
@@ -44,5 +45,6 @@ int main(int argc, char* argv[])
     printf("\n La somma degli ultimi %d numeri immessi e' uguale a %d \n", n, key);
 
     system("PAUSE");
+    free(V);
     return 0;
 }

@@ -11,6 +11,7 @@ struct record
     float value;
     int next;
 };
+
 struct list
 {
     struct record* buffer;
@@ -65,7 +66,6 @@ Boolean search(struct list* ptr, float target)
         {
             found = TRUE;
         }
-
         else
         {
             count = (ptr->buffer[count]).next;
@@ -121,7 +121,6 @@ Boolean suf_insert(struct list* ptr, float value)
 
         return TRUE;
     }
-
     else
     {
         return FALSE;
@@ -224,7 +223,4 @@ int main(int argc, char* argv[])
 
     }
     while(reply != 5);
-
 }
-
-

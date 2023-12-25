@@ -27,7 +27,6 @@ Boolean pari(int x)
 
 int main(int argc, char* argv[])
 {
-
     int count;
     int min;
     int max;
@@ -79,19 +78,3 @@ int main(int argc, char* argv[])
     system("PAUSE");
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

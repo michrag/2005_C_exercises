@@ -11,6 +11,7 @@ struct struttura
     int code;
     struct prestazione* ptr;
 };
+
 struct elenco
 {
     int size;
@@ -18,6 +19,7 @@ struct elenco
     int coda;
     int* buffer;
 };
+
 struct prestazione
 {
     int codice;
@@ -55,7 +57,6 @@ Boolean search(struct prestazione* ptr, int target)
             found = TRUE;
             stampa_data(&(ptr->elenco));
         }
-
         else
         {
             ptr = ptr->next_ptr;
@@ -75,7 +76,6 @@ void stampa_data(struct elenco* ptr)
         data = ptr->buffer[ptr->testa];
         printf("\nLa prestazione richiesta e' disponibile il giorno %d nella", data);
     }
-
     else
     {
         printf("\nLa prestazione richiesta e' offerta ma al amomento non disponibile nella");
@@ -84,7 +84,6 @@ void stampa_data(struct elenco* ptr)
 
 int main(int argc, char* argv[])
 {
-
     system("PAUSE");
     return 0;
 }

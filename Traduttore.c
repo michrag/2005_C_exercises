@@ -21,7 +21,6 @@ int main(int argc, char* argv[])
         printf("%d\n", lettera); /*scrive la lettera come variabile di tipo int.
                          Attenzione: \n è importante! */
     }
-
     while(exit == 0);
 
     system("PAUSE");

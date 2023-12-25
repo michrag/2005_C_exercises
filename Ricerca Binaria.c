@@ -29,13 +29,11 @@ Boolean Bsearch(float* V, int size, float target)
             }
         }
     }
-
     else
     {
         return FALSE;
     }
 }
-
 
 
 int main(int argc, char* argv[])
@@ -58,7 +56,6 @@ int main(int argc, char* argv[])
     A = (float*)malloc(n * sizeof(float));
 
     printf("\nInserire i valori in ordine crescente...\n");
-
 
     printf("\nImmettere il valore in posizione 0\n>");
     scanf("%f", &A[0]);
@@ -90,7 +87,6 @@ int main(int argc, char* argv[])
                 }
             }
             break;
-
 
             case 2:
             {

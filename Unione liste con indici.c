@@ -520,6 +520,4 @@ int main(int argc, char* argv[])
     printf("\nUscita...\n");
     system("PAUSE");
     return 0;
-
 }
-

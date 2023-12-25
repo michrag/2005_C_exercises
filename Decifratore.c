@@ -42,7 +42,6 @@ int main(int argc, char* argv[])
 
         if(chiave >= -10 && chiave != 0 && chiave <= 10)
         {
-
             scanf("%c", &hide);
             printf("\n \n Adesso inserire la sequenza di numeri che si desidera decrittografare. \n ATTENZIONE: tutti i numeri devono essere seprati da uno spazio \n l'uno dall'altro! \n \n");
 
@@ -53,7 +52,6 @@ int main(int argc, char* argv[])
                 (char) out;
                 printf("%c", out);
             }
-
             while(exit == 0);
         }
     }
@@ -86,12 +84,10 @@ int main(int argc, char* argv[])
                 (char) out;
                 printf("%c", out);
             }
-
             while(exit == 0);
         }
     }
-
-
+    
     system("PAUSE");
     return 0;
 }

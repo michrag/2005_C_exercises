@@ -95,7 +95,6 @@ int main(int argc, char* argv[])
 
     exit = FALSE;
 
-
     printf("\nMerge Sort\n");
 
     do
